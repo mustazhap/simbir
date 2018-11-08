@@ -1,0 +1,41 @@
+.nav{
+    border-top: 1px solid #dedede;
+    border-bottom: 1px solid #dedede;
+
+    &__wrapper{
+
+    }
+
+    &__row{
+        display: flex;
+        padding-top: 31px;
+        padding-bottom: 28px;
+    }
+
+    &__item{
+        color: #333333;
+        font-family: $Circe;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 24px;
+        text-transform: uppercase;
+        text-decoration: none;
+        margin-right: 70px;
+
+        &:hover{
+            opacity: 0.8;
+        }
+
+        &_active{
+            opacity: 0.5;
+
+            &:hover{
+                opacity: 0.5;
+            }
+        }
+
+        &:last-child{
+            margin-right: 0;
+        }
+    }
+}

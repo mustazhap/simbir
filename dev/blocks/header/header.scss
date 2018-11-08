@@ -1,0 +1,65 @@
+header{
+    padding: 0 30px;
+    height: 102px;
+}
+
+.header{
+    &__wrapper{
+        display: flex;
+        height: 100%;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__logo{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        span{
+            color: #333333;
+            font-family: $Circe;
+            font-size: 20px;
+            font-weight: 700;
+            margin-left: 21px;
+            text-decoration: none;
+        }
+
+    }
+    &__right{
+        display: flex;
+        align-items: center;
+    }
+
+    &__phone{
+        margin-right: 32px;
+        color: #333333;
+        font-family: Circe;
+        font-size: 20px;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+
+    &__menu{
+        display: flex;
+        align-items: flex-end;
+        cursor: pointer;
+
+        &:hover{
+            color: #ffdd2d;
+        }
+        span{
+            margin-right: 15px;
+            line-height: 1;
+            font-size: 12px;
+            font-weight: 700;
+            text-transform: uppercase;
+
+        }
+
+        i{
+            height: 16px;
+            width: 21px;
+        }
+    }
+}

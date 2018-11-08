@@ -1,0 +1,324 @@
+@import 'settings';
+
+@media screen and (max-width: 1440px){
+    .section__wrapper_big{
+        width: 100%;
+    }
+  
+}
+
+
+@media screen and (max-width: 1170px){
+    .section{
+        &__wrapper{
+            width: 100%;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+    }
+    .clients{
+        &__row{
+            justify-content: center;
+        }
+        &__item{
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+    }
+}
+
+@media screen and (max-width: 900px){
+    header{
+        padding: 0;
+        height: 70px;
+    }
+
+    .header{
+        &__logo{
+            span{
+                display: none;
+            }
+
+        }
+
+        &__menu{
+            display: none;
+        }
+    }
+
+    .nav{
+        &__row{
+            justify-content: space-between;
+        }
+    }
+
+    .award__table{
+        height: auto;
+        border: none;
+
+    }
+
+    .award__cell{
+        width: 50%;
+        height: 180px;
+        &:nth-child(1){
+            border: 1px solid #dedede; 
+            border-top-left-radius: 7px;
+        }
+        
+        &:nth-child(2){
+            border: 1px solid #dedede; 
+            border-left: none;
+            border-top-right-radius: 7px;
+
+        }
+        &:nth-child(3){
+            border: 1px solid #dedede; 
+            border-top: none;
+        }
+        &:nth-child(4){
+            border: 1px solid #dedede; 
+            border-top: none;
+            border-left: none;
+
+
+        }
+        &:nth-child(5){
+            border: 1px solid #dedede;
+            border-top: none;
+
+        }
+        &:nth-child(6){
+            border: 1px solid #dedede; 
+            border-top: none;
+            border-left: none;
+
+            
+        }
+        
+        &:nth-child(7){
+            border: 1px solid #dedede;
+            border-top: none;
+        }
+        
+        &:nth-child(8){
+            border: 1px solid #dedede; 
+            border-top: none;
+            border-left: none;
+            border-bottom-right-radius: 7px;
+
+
+        }
+        
+        &:nth-child(9){
+            border: 1px solid #dedede; 
+            border-top: none;
+            border-bottom-left-radius: 7px;
+            border-bottom-right-radius: 7px;
+
+        }
+    }
+
+    .certificate{
+        &__wrapper{
+            height: auto;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            flex-direction: column-reverse;
+        }
+
+        &__download{
+            margin-top: 30px;
+        }
+    }
+    
+    .footer{
+        &-contacts{
+            &__table{
+                flex-direction: column;
+                height: auto;
+                padding: 30px;
+            }
+    
+            &__cell{
+                border: none;
+                width: 100%;
+                align-items: center;
+                display: flex;
+                padding: 0;
+                padding-bottom: 40px;
+                flex-direction: column;
+                border-bottom: 1px solid #6a7172;
+                &:last-child{
+                    border-bottom: none ;
+                    padding-top: 40px;
+                    padding-bottom: 0;
+                }
+        }
+
+        &__col{
+            margin: 0;
+        }
+
+        button{
+            margin-top: 20px;
+        }
+    
+    }
+
+    &-menu{
+        &__wrapper{
+            height: auto;
+            flex-direction: column;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        &__item{
+            width: 33%;
+            &_active{
+                color: white;
+                border-bottom: none;
+                    }
+    
+            &:hover{
+                border-bottom: none;
+            }
+        }
+
+        &__nav{
+            flex-wrap: wrap;
+        }
+    }
+}
+   
+    .mob-menu{
+        display: block;
+        
+        i{
+            font-size: 20px;
+        }
+
+        &:hover{
+            color: #ffdd2d;
+        }
+    }
+
+    .menu{
+        margin-top: 70px;
+        align-items: center;
+        right: -1000px;
+        z-index: 3;
+
+        &__close{
+            display: none;
+        }
+
+        &__wrapper{
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+            height: max-content;
+            padding: 0;
+        }
+
+        &__items{
+            margin-top: 0;
+            align-items: center;
+            a{
+                margin-bottom: 20px;
+            }
+            margin-bottom: 30px;
+        }
+        &__link{
+            margin-top: 20px;
+        }
+
+    }
+}
+
+
+
+@media screen and (max-width: 660px){
+    .section{
+        &__title{
+            font-size: 32px;
+        }
+    }
+    .clients{
+
+        &__row{
+            justify-content: center;
+        }
+        &__item{
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+    }
+
+    .award{
+        &__table{
+            justify-content: center;
+        }
+
+        &__cell{
+            width: 70%;
+            &:nth-child(1n+1){
+                border: 1px solid #dedede;
+                border-bottom: none;
+                border-radius: 0;
+            }
+            &:last-child{
+                border-bottom: 1px solid #dedede;
+                border-bottom-left-radius: 7px;
+                border-bottom-right-radius: 7px;               
+            }
+            &:first-child{
+                border-top-left-radius: 7px;
+                border-top-right-radius: 7px;               
+            }
+
+        }
+
+    }
+    .footer-menu__item{
+        width: 50%;
+        padding-left: 0;
+        
+    }
+
+    .nav__item{
+        margin-right: 0;
+    }
+
+    .footer-legacy__wrapper{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .award{
+        .section__title{
+            margin-top: 10px;
+        }
+
+        &__wrapper{
+            padding-top: 20px;
+        }
+
+        &__cell{
+            width: 300px;
+        }
+    }
+
+    .nav__row{
+        padding-top: 24px;
+        padding-bottom: 20px;
+    }
+
+    .certificate__text{
+        h3{
+            line-height: 1;
+        }
+    }
+}

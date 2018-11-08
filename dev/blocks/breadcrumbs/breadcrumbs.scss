@@ -1,0 +1,16 @@
+.breadcrumbs{
+    a, span{
+        color: #bdbdbd;
+        font-family: Circe;
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+        /* Text style for "Главная /" */
+        letter-spacing: 1.2px;
+        text-decoration: none;
+
+        &:hover{
+            color: #333;
+        }
+    }
+}

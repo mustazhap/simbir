@@ -1,0 +1,40 @@
+.section{
+    display: flex;
+    justify-content: center;
+
+    &__wrapper{
+      width: 1170px;
+      &_big{
+        width: 1440px;
+      }
+    }
+
+    &__title{
+        color: #333333;
+        font-family: Circe;
+        font-size: 36px;
+        line-height: 1;
+        font-weight: 700;
+    }
+
+    &__uptitle{
+        color: #bdbdbd;
+        font-family: Circe;
+        font-size: 12px;
+        line-height: 1;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1.2px;
+    }
+
+    &__subtitle{
+        color: #333333;
+        font-family: Circe;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 30px;
+        line-height: 1;
+        margin: 0;
+    }
+  }
+  
