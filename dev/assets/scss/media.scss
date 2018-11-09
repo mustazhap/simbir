@@ -16,6 +16,10 @@
             padding-right: 20px;
         }
     }
+
+    .header__right{
+        margin-right: 0;
+    }
     .clients{
         &__row{
             justify-content: center;
@@ -32,6 +36,8 @@
         padding: 0;
         height: 70px;
     }
+
+    
 
     .header{
         &__logo{
@@ -124,7 +130,9 @@
             height: auto;
             padding-top: 50px;
             padding-bottom: 50px;
+            width: max-content;
             flex-direction: column-reverse;
+            align-items: flex-start;
         }
 
         &__download{
@@ -169,13 +177,11 @@
     &-menu{
         &__wrapper{
             height: auto;
-            flex-direction: column;
             padding-top: 20px;
             padding-bottom: 20px;
         }
 
         &__item{
-            width: 33%;
             &_active{
                 color: white;
                 border-bottom: none;
@@ -188,6 +194,7 @@
 
         &__nav{
             flex-wrap: wrap;
+            height: auto;
         }
     }
 }
@@ -197,10 +204,6 @@
         
         i{
             font-size: 20px;
-        }
-
-        &:hover{
-            color: #ffdd2d;
         }
     }
 

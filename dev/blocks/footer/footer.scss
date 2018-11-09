@@ -19,7 +19,7 @@ footer{
 
         .section__title{
             color: white;
-            margin-top: 23px;
+            margin-top: 21px;
             margin-bottom: 23px;
         }
 
@@ -31,6 +31,7 @@ footer{
             display: flex;
             box-sizing: border-box;
             margin-bottom: 68px;
+            max-width: 1172px;
         }
 
         &__cell{
@@ -74,7 +75,8 @@ footer{
             display: flex;
             flex-direction: column;
             align-items: center;
-            margin-left: 95px;
+            margin-top: 19px;
+            margin-left: 63px;
             justify-content: center;
 
             a{
@@ -92,7 +94,7 @@ footer{
         }
 
         &__email{
-            margin-top: 11px;
+            margin-top: 6px;
             color: #ffdd2d;
             font-family: $Circe;
             font-size: 16px;
