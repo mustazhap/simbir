@@ -143,23 +143,19 @@
     .footer{
         &-contacts{
             &__table{
-                flex-direction: column;
                 height: auto;
                 padding: 30px;
             }
     
             &__cell{
-                border: none;
                 width: 100%;
                 align-items: center;
                 display: flex;
                 padding: 0;
-                padding-bottom: 40px;
                 flex-direction: column;
-                border-bottom: 1px solid #6a7172;
+                align-items: flex-start;
                 &:last-child{
-                    border-bottom: none ;
-                    padding-top: 30px;
+                    align-items: center;
                     padding-bottom: 0;
                 }
         }
@@ -263,16 +259,27 @@
         margin-top: 0;
     }
 
-    .footer-contacts__cell{
-        span, p{
-            text-align: center;
-        }
-    }
 }
 
 
 
 @media screen and (max-width: 660px){
+    &-contacts{
+        &__table{
+            flex-direction: column;
+        }
+
+        &__cell{
+            border: none;
+            border-bottom: 1px solid #6a7172;
+            &:last-child{
+                border-bottom: none ;
+                padding-top: 30px;
+                padding-bottom: 0;
+            }
+    }
+}
+
     .section{
         &__title{
             font-size: 32px;
