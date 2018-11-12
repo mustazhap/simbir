@@ -216,12 +216,12 @@
     }
 
     .menu{
-        margin-top: 70px;
+        margin-top: 65px;
         align-items: center;
         right: -1000px;
         z-index: 3;
         align-items: center;
-        height: calc(100% - 70px);
+        height: calc(100% - 65px);
 
         &__close{
             display: none;
@@ -379,5 +379,21 @@
 @media screen and (max-width: 400px){
     .nav__item{
         font-size: 11px;
+    }
+
+    .menu__items{
+        a{
+            font-size: 13px;
+        }
+    }
+
+    .menu{
+        .button{
+            font-size: 13px;
+        }
+        &__link{
+            font-size: 13px;
+        }
+
     }
 }
