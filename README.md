@@ -2,10 +2,10 @@
 
 ![site-preview](https://github.com/mustazhap/simbir/blob/master/site-templ.png)
 
-> Адаптивно во всех устройствах,  [320px >> ]
-кроссбраузерно [IE9+]
+> Адаптивно во всех устройствах,  [320px >> ]  
+кроссбраузерно [IE9+]  
 использовал технологии Flexbox-grid, CSS3, JQuery, HTML5, SCSS, Gulp, Photoshop, Верстка по БЭМ  
-Необычная анимация для меню
+Необычная анимация для меню  
 [Посмотреть сайт](https://mustazhap.h1n.ru/simbir)
 
 #ПК 
